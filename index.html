@@ -15,32 +15,40 @@
 	<script src="./assets/scripts.js" defer></script>
 	<title>Nina Carducci | Photographe professionnelle à Bordeaux - Portfolio et tarifs</title>
 
+	<meta property="og:title" content="Portfolio de Nina Carducci" />
+  	<meta property="og:description" content="Découvrez les magnifiques photographies de Nina Carducci, spécialisées dans la photographie de paysage et de portrait." />
+  	<meta property="og:image" content="https://www.votre-site.com/assets/images/nina-carducci-cover.jpg" />
+  	<meta property="og:url" content="https://www.votre-site.com/" />
+  	<meta property="og:type" content="website" />
+
 	<script type="application/ld+json">
 		{ "@context": "https://schema.org",
-		  "@type": "Photograph",
+		  "@type": "Person",
 		  "name": "Nina Carducci",
-		  "address": {
-			"@type": "PostalAddress",
-			"addressLocality": "Bordeaux",
-			"addressRegion": "Nouvelle-Aquitaine",
-			"postalCode": "33000",
-			"streetAddress": "12 Rue Exemple" },
-		  "url": "https://www.ninacarducci.com",
-		  "sameAs": [ "https://www.instagram.com/ninacarducci.photo" ],
-		  "areaServed": "Bordeaux, Gironde, Nouvelle-Aquitaine"
+		"address": {
+		"@type": "PostalAddress",
+		"addressLocality": "Bordeaux",
+		"addressRegion": "Nouvelle-Aquitaine",
+		"postalCode": "33200",
+		"streetAddress": " 68 avenue Alsace-Lorraine" },
+		"url": "https://www.ninacarducci.com",
+		"sameAs": [ "https://www.instagram.com/ninacarducci.photo" ],
+		"areaServed": "Bordeaux, Gironde, Nouvelle-Aquitaine"
+		"telephone": "+335 56 67 78 89",
+  		"openingHours": "Mo-Fr 10:00-19:00"
 		}
 	</script>
 </head>
 <body>
-<div class="top-header">
-	<h2 class="name">Nina Carducci</h2>
+<div class="top-header" itemscope itemtype="https://schema.org/Person">
+	<h1 class="name" itemprop="name">Nina Carducci</h1>
 	<div class="nav">   
 		<ul>
 			<li><a href="#about">À propos</a></li>
 			<li><a href="#gallery">Galerie</a></li>
 			<li><a href="#services">Service</a></li>
 			<li><a href="#contact">Contact</a></li>
-			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" aria-label="Page Instagram de Nina Carducci" target="_blank"><img src="assets/images/instagram.png" alt=""></a></li>
+			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" aria-label="Page Instagram de Nina Carducci" target="_blank" itemprop="sameAs"><img src="assets/images/instagram.png" alt=""></a></li>
 		</ul>
 	</div>
 </div>
