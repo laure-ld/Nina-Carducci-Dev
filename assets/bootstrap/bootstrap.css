@@ -212,8 +212,8 @@ textarea {
 
   @media (min-width: 1200px) {
     .col-xl-4 {
-        /* flex: 0 0 auto; */
-        /* width: 33.33333333%; */
+        flex: 0 0 auto;
+        width: 33.33333333%;
     }
 }
 @media (min-width: 992px) {
@@ -426,6 +426,7 @@ modal.fade .modal-dialog {
 
 .modal {
   position: fixed;
+  align-content: center;
   top: 0;
   left: 0;
   z-index: 1055;
