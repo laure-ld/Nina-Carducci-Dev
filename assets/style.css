@@ -119,11 +119,11 @@ body {
     padding-inline: 10px;
 }
 
-.nav-pills .nav-link.active, .nav-pills > .nav-link {
+.nav-pills .nav-link.active {
     color: black;
-	font-size: 18px;
+    font-size: 18px;
     background-color: #E5975F;
-	box-shadow: 2px 3px 5px #F6D2B8;
+    box-shadow: 2px 3px 5px #F6D2B8;
     border-radius: 0;
 }
 .nav-pills .nav-link {
